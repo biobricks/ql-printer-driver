@@ -33,6 +33,12 @@ Usage: ./ql_print printer n|w|7 pngfile [cutoff]
 
 If you try to print a greyscale PNG, then it will be converted to monochrome before printing. The image is converted by turning all pixels that have a value of less than 180 out of 255 in either color channel to black, and the rest to white. The cutoff can be adjusted to something other than 180 by specifying it on the command line.
 
+# Installation
+
+```
+sudo make install
+```
+
 # Credit
 
 Asbjørn Sloth Tønnesen reverse-engineered the QL-570 protocol and wrote all the important parts of this program. Originally this was developed for the [labitat hacker space](https://labitat.dk/)
